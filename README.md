@@ -42,12 +42,12 @@
 #### 3. Thao tác làm việc với Cloud- init
 
  Các bước chuẩn bị tạo Image có sẵn Cloud- init (thực hiện trên máy cài Ubuntu 1204 desktop và dùng Virtual machine để tạo VM) 
- B1: Tạo một VM
- B2: Install Os
- B3: Install Cloud- init
- B4: Chuẩn bị đoạn code python viết cho Jobs mà ta muốn thực hiện sau đó sửa file cấu hình <i>/etc/cloud/cloud.cfg</i> sao cho map tên đầu mục với code đã viết.
- B5: Tạo ra image từ VM trên (định dạng cho image(qcow2), nén image lại cho nhỏ)
- B6: Đẩy image vừa tạo lên máy chủ OpenStack
+ - B1: Tạo một VM
+ - B2: Install Os
+ - B3: Install Cloud- init
+ - B4: Chuẩn bị đoạn code python viết cho Jobs mà ta muốn thực hiện sau đó sửa file cấu hình <i>/etc/cloud/cloud.cfg</i> sao cho map tên đầu mục với code đã viết.
+ - B5: Tạo ra image từ VM trên (định dạng cho image(qcow2), nén image lại cho nhỏ)
+ - B6: Đẩy image vừa tạo lên máy chủ OpenStack
 
  Ví dụ: ta chèn password để login vào image
  
