@@ -52,15 +52,15 @@
 
  **Ví dụ: ta chèn password để login vào image**
  
- - Đoạn code theo định dạng của Cloud- init
+  Đoạn code theo định dạng của Cloud- init
  
  ![img](http://i.imgur.com/mJPQwiT.png "img")
 
- - Các file cấu hình = python
+  Các file cấu hình = python
   
  ![img](http://i.imgur.com/TcvT4IV.png "img")
 
- - Các Jobs trong file <i>/etc/cloud/cloud.cfg</i>
+  Các Jobs trong file <i>/etc/cloud/cloud.cfg</i>
  
  ![img](http://i.imgur.com/zKRhaZ9.png "img")
 
