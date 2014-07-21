@@ -14,13 +14,13 @@
  về cấu hình.
  Các nguồn này được lưu trữ trên VM, 
  Đối với Python2.6 nguồn này được lưu trong thư mục <i>/usr/lib/python2.6/site-packages/cloudinit/CloudConfig/</i>
- Đối với Python2.7 nguồn này được lưu trong thư mục <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i>
+ . Đối với Python2.7 nguồn này được lưu trong thư mục <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i>
  
- File cấu hình mặc định của Cloud- init nằm ở /etc/cloud/cloud.cfg
+ File cấu hình mặc định của Cloud- init nằm ở <i>/etc/cloud/cloud.cfg</i>
  
 ###### Cách làm việc của Cloud- init 
 
- File cấu hình Cloud- init /etc/cloud/cloud.cfg chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
+ File cấu hình Cloud- init <i>/etc/cloud/cloud.cfg</i> chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
  Cloud_final_module. Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
  
  ![img](http://i.imgur.com/z4ZxNIb.png "img")
