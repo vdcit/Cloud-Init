@@ -18,7 +18,7 @@
  
  File cấu hình mặc định của Cloud- init nằm ở <i>/etc/cloud/cloud.cfg</i>
  
-###### 2. Cách làm việc của Cloud- init 
+#### 2. Cách làm việc của Cloud- init 
 
  File cấu hình Cloud- init <i>/etc/cloud/cloud.cfg</i> chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
  Cloud_final_module. 
@@ -39,7 +39,7 @@
  Sau khi instance được tạo và boot lên lần đầu tiên nó sẽ đồng thời thực hiện các cấu hình mà ta đã viết trong file trên. Việc Cloud- init thực hiện được công việc này là do data trong file chứa dữ liệu đầu vào trên máy chủ OpenStack theo các đầu mục sẽ truyền vào trong file chứa code python định nghĩa công việc cần thực hiện <i>cc_mymodule.py</i> đã có sẵn trong instance khi tạo (vì instance đã được cài cloud- init sẵn)
  
  
-###### 3. Thao tác làm việc với Cloud- init
+#### 3. Thao tác làm việc với Cloud- init
 
  Các bước chuẩn bị tạo Image có sẵn Cloud- init (thực hiện trên máy cài Ubuntu 1204 desktop và dùng Virtual machine để tạo VM) 
  B1: Tạo một VM
