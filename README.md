@@ -63,7 +63,8 @@
  - Các Jobs trong file <i>/etc/cloud/cloud.cfg</i>
  
  ![img](http://i.imgur.com/zKRhaZ9.png "img")
- a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
+
+##### a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
  
 
 Vừa tạo instance vừa chèn file uer-data
@@ -72,5 +73,5 @@ Vừa tạo instance vừa chèn file uer-data
     -b067c2cb6e63 --user-data testcloud-init.txt
 
  - Đợi instance boot xong, đăng nhập với uer: ubuntu và passwd giống như trong file testcloud-init.txt
- 
- b. Dùng giao diện Dashboard để tạo instance và chèn file cloud- init
+
+##### b. Dùng giao diện Dashboard để tạo instance và chèn file cloud- init
