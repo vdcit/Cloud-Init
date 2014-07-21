@@ -22,7 +22,7 @@
 
  File cấu hình Cloud- init /etc/cloud/cloud.cfg chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
  Cloud_final_module. Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
- !(http://i.imgur.com/z4ZxNIb.png)
+ ![Smile](http://i.imgur.com/z4ZxNIb.png "Smile")
  http://i.imgur.com/z4ZxNIb.png 
  Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn /usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/ bạn cũng phải viết 1 file  cc_mymodule.py theo ngôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ...  
 ###### Hướng làm việc
