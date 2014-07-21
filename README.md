@@ -55,7 +55,7 @@
  
  ![img](http://i.imgur.com/mJPQwiT.png "img")
 
- - Các file cấu hình = python
+ - Các file cấu hình bằng python
   
  ![img](http://i.imgur.com/TcvT4IV.png "img")
 
@@ -63,12 +63,11 @@
  
  ![img](http://i.imgur.com/zKRhaZ9.png "img")
 
-
- a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
+##### a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
  Vừa tạo instance vừa chèn file uer-data 
  
 nova boot cnuytest --image ubuntu1204 --flavor 1 --security-groups default --nic net-id=64abc0f8-5670-4e70-a3a5-b067c2cb6e63 --user-data testcloudinit.txt
 
  - Đợi instance boot xong, đăng nhập với uer: ubuntu và passwd giống như trong file testcloudinit.txt
  
- b. Dùng giao diện Dashboard để tạo instance và chèn file cloud- init
+##### b. Dùng giao diện Dashboard để tạo instance và chèn file cloud- init
