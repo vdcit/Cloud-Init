@@ -69,7 +69,7 @@
  
  Vừa tạo instance vừa chèn file uer-data 
  
-<i>nova boot cnuytest --image ubuntu1204 --flavor 1 --security-groups default --nic net-id=64abc0f8-5670-4e70-a3a5-b067c2cb6e63 --user-data testcloud-init.txt</i>
+    <i>nova boot cnuytest --image ubuntu1204 --flavor 1 --security-groups default --nic net-id=64abc0f8-5670-4e70-a3a5-b067c2cb6e63 --user-data testcloud-init.txt</i>
 
  - Đợi instance boot xong, đăng nhập với uer: ubuntu và passwd giống như trong file testcloud-init.txt
  
