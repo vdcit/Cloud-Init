@@ -26,7 +26,9 @@
  ![img](http://i.imgur.com/z4ZxNIb.png "img")
  
 
- Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn /usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/ bạn cũng phải viết 1 file  cc_mymodule.py theo ngôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ...  
+ Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn /usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/ bạn cũng phải viết 1 file  <i>mymodule.py</i> ôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ... 
+ 
+ Sau khi instance được boot lên lần đầu tiên nó sẽ đồng thời thực hiện các cấu hình mà ta đã viết trong cc_mymodule.py 
 ###### Hướng làm việc
 
 ###### Dùng dòng lệnh để chèn data sources vào trong Instances
