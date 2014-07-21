@@ -13,8 +13,8 @@
  Sau khi cài đặt gói, Cloud- nit sẽ bắt đầu quá trình khời động và tìm kiếm "data sources" cái mà cung cấp cho nó các hướng dẫn
  về cấu hình.
  Các nguồn này được lưu trữ trên VM, 
- Đối với Python2.6 nguồn này được lưu trong thư mục /usr/lib/python2.6/site-packages/cloudinit/CloudConfig/
- Đối với Python2.7 nguồn này được lưu trong thư mục /usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/
+ Đối với Python2.6 nguồn này được lưu trong thư mục <i>/usr/lib/python2.6/site-packages/cloudinit/CloudConfig/</i>
+ Đối với Python2.7 nguồn này được lưu trong thư mục <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i>
  
  File cấu hình mặc định của Cloud- init nằm ở /etc/cloud/cloud.cfg
  
@@ -26,7 +26,7 @@
  ![img](http://i.imgur.com/z4ZxNIb.png "img")
  
 
- Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn /usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/ bạn cũng phải viết 1 file  <i>mymodule.py</i> ôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ... 
+ Ở đây mình đã định nghĩa ra Job <i>"mymodule"</i> mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i> bạn cũng phải viết 1 file  <i>cc_mymodule.py</i> theo ngôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ... 
  
  Sau khi instance được boot lên lần đầu tiên nó sẽ đồng thời thực hiện các cấu hình mà ta đã viết trong cc_mymodule.py 
 ###### Hướng làm việc
