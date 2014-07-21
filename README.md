@@ -21,14 +21,21 @@
 ###### Cách làm việc của Cloud- init 
 
  File cấu hình Cloud- init <i>/etc/cloud/cloud.cfg</i> chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
- Cloud_final_module. Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
+ Cloud_final_module. 
+ 
+ ![img](http://i.imgur.com/AnhTGfu.png "img")
+ 
+ Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
  
  ![img](http://i.imgur.com/z4ZxNIb.png "img")
  
 
- Ở đây mình đã định nghĩa ra Job <i>"mymodule"</i> mới trong phần Cloud_congif_modules, file này nêu ra cú pháp của các jobs, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i> bạn cũng phải viết 1 file  <i>cc_mymodule.py</i> theo ngôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình ... 
+ Ở đây mình đã định nghĩa ra Job <i>"mymodule"</i> mới trong phần Cloud_congif_modules, file này nêu ra cú pháp, đầu mục của các jobs con, thông số đầu vào cho các jobs ở trong file nguồn. Trong file nguồn <i>/usr/lib/python2.7/dist-packages/cloudinit/CloudConfig/</i> bạn cũng phải viết 1 file  <i>cc_mymodule.py</i> lập trình theo ngôn ngữ Python, file này định nghĩa và mô tả chi tiết về Jobs mà bạn định nghĩa ra, có thể là cài đặt package, sửa file cấu hình, chèn passwd, ip, host.... Các đầu mục trong <i>mymodule</i> sẽ được map với code python trong file <i>cc_mymymodule.py</i>. 
  
- Sau khi instance được boot lên lần đầu tiên nó sẽ đồng thời thực hiện các cấu hình mà ta đã viết trong cc_mymodule.py 
+ ![img](http://i.imgur.com/xTU0TKg.png "img")
+ 
+ Sau khi instance được boot lên lần đầu tiên nó sẽ đồng thời thực hiện các cấu hình mà ta đã viết trong <i>cc_mymodule.py</i> 
+ 
 ###### Hướng làm việc
 
 ###### Dùng dòng lệnh để chèn data sources vào trong Instances
