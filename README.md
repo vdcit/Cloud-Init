@@ -7,7 +7,7 @@
  Tích hợp hỗ trợ nó vào trong oVirt sẽ giúp tạo điều kiện cung cấp các máy ảo. Nó được sử dụng rộng rãi trong các Cloud 
  Soffware như là OpenStack (thông qua Heat) cũng như các nhà cung cấp như là Amazon.
  
-###### Mô tả chi tiết
+##### Mô tả chi tiết
  Sử dụng Cloud- init để giúp cung cấp, đáp ứng yêu cầu của Guest. Đối với máy ảo trong Cloud, điều này thường được thực
  hiện trong quá trình tạo Image. Sau khi cài đặt gói, Cloud- nit sẽ bắt đầu quá trình khời động và tìm kiếm "data sources" cái mà cung cấp cho nó các hướng dẫn
  về cấu hình.
