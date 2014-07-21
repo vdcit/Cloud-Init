@@ -49,7 +49,7 @@
  - B5: Tạo ra image từ VM trên (định dạng cho image(qcow2), nén image lại cho nhỏ)
  - B6: Đẩy image vừa tạo lên máy chủ OpenStack
 
- Ví dụ: ta chèn password để login vào image
+ **Ví dụ: ta chèn password để login vào image**
  
  - Đoạn code theo định dạng của Cloud- init
  
