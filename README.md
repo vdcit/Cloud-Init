@@ -23,10 +23,11 @@
  File cấu hình Cloud- init /etc/cloud/cloud.cfg chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
  Cloud_final_module. Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
  http://prntscr.com/44r02l
+ Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules.
 
 ###### Hướng làm việc
 
-######## Dùng dòng lệnh để chèn data sources vào trong Instances
+###### Dùng dòng lệnh để chèn data sources vào trong Instances
 
-######## Dùng giao diện Dash Board chèn data vào khi tạo máy ảo
+###### Dùng giao diện Dash Board chèn data vào khi tạo máy ảo
 
