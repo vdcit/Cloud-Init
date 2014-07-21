@@ -63,7 +63,6 @@
  - Các Jobs trong file <i>/etc/cloud/cloud.cfg</i>
  
  ![img](http://i.imgur.com/zKRhaZ9.png "img")
-
  a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
  
 
