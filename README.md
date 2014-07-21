@@ -63,9 +63,11 @@
  - Các Jobs trong file <i>/etc/cloud/cloud.cfg</i>
  
  ![img](http://i.imgur.com/zKRhaZ9.png "img")
+
  a. Dùng dòng lệnh để chèn data sources vào trong Instances (thực hiện trên máy chủ cài OpenStack)
  
-Vừa tạo instance vừa chèn file uer-data
+ Vừa tạo instance vừa chèn file uer-data
+
     nova boot cnuytest --image ubuntu1204 --flavor 1 --security-groups default --nic net-id=64abc0f8-5670-4e70-a3a5  
     -b067c2cb6e63 --user-data testcloud-init.txt
 
