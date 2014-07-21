@@ -1,4 +1,4 @@
-# CLoud-Init trong OpenStack Image Service 
+# Cloud-Init trong OpenStack Image Service 
 #### 1. Giới thiệu về Cloud init trong OpenStack
 
  Cloud- init là một công cụ được sử dụng để thực hiện các thiết lập ban đầu trên các Nodes Cloud, bao gồm networking, 
