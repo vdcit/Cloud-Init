@@ -22,7 +22,7 @@
 
  File cấu hình Cloud- init /etc/cloud/cloud.cfg chứa mặc định 3 modul là: Cloud_init_modules, Cloud_config_modules,
  Cloud_final_module. Ở trong 3 modules này chứa Jobs mặc định của Cloud- init, ta có thể thay đổi các Jobs này, định nghĩa ra các Jobs mới
- http://prntscr.com/44r02l
+ http://prntscr.com/44r02l <img src=http://prntscr.com/44r02l width="60%" height="60%" border="1">
  Ở đây mình đã định nghĩa ra Job "mymodule" mới trong phần Cloud_congif_modules.
 
 ###### Hướng làm việc
