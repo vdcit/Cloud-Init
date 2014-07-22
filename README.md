@@ -75,3 +75,14 @@ Vừa tạo instance vừa chèn file uer-data
  - Đợi instance boot xong, đăng nhập với uer: ubuntu và passwd giống như trong file testcloud-init.txt
 
 ##### b. Dùng giao diện Dashboard để tạo instance và chèn file cloud- init
+
+ - Tạo máy ảo bằng dashboard
+
+![img](http://i.imgur.com/MJQRDd4.png "img")
+
+ - Nhập đoạn code theo Syntax của cloud-init
+
+![img](http://i.imgur.com/PMlyrQE.png "img") 
+
+ - Sau khi máy ảo được tạo xong, login bằng uer: ubuntu và pass: auyvl  ( :D )
+
